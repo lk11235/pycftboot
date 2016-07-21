@@ -30,7 +30,7 @@ if have_mpfr == False:
 
 # Relocate some self-contained classes to separate files
 # Importing them would not make sense because they refer back to things in this file
-execfile('"common.py"')
+execfile("common.py")
 execfile("blocks1.py")
 execfile("blocks2.py")
 
